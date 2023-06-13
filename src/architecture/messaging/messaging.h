@@ -335,7 +335,7 @@ private:
     std::vector<uint64_t> msgRecordTimes;         //!< vector of times at which messages are recorded
     std::vector<uint64_t> msgWrittenTimes;        //!< vector of times at which messages are written
     uint64_t nextUpdateTime = 0;                  //!< [ns] earliest time at which the msg is recorded again
-    uint64_t timeInterval;                        //!< [ns] recording time intervale
+    uint64_t timeInterval;                        //!< [ns] recording time interval
 
 private:
     ReadFunctor<messageType> readMessage;   //!< method description
